@@ -1,6 +1,10 @@
+USE kalua;
+
 create table customer
+
+
 (
-    CustomerID          int          not null
+    CustomerID          int AUTO_INCREMENT         not null
         primary key,
     Name                varchar(100) null,
     Address             varchar(150) null,

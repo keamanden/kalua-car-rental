@@ -1,6 +1,8 @@
+USE kalua;
+
 create table cars
 (
-    CarID             int          not null
+    CarID             int  AUTO_INCREMENT        not null
         primary key,
     Brand             varchar(100) null,
     Model             varchar(100) null,

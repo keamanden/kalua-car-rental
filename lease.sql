@@ -1,6 +1,9 @@
+USE kalua;
+
+
 create table lease
 (
-    LeaseID                   int          not null
+    LeaseID                   int AUTO_INCREMENT        not null
         primary key,
     CustomerID                int          null,
     CarID                     int          null,
